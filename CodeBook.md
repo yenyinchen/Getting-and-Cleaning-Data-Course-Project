@@ -34,33 +34,33 @@ These signals were used to estimate variables of the feature vector for each pat
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (TimeBodyAccJerk-XYZ and TimeBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (TimeBodyAccMag, TimeGravityAccMag, TimeBodyAccJerkMag, TimeBodyGyroMag, TimeBodyGyroJerkMag). The units are radians/second.
 
-TimeBodyAccJerkMean-X             
-TimeBodyAccJerkMean-Y             
-TimeBodyAccJerkMean-Z            
-TimeBodyAccJerkStdDev-X
-TimeBodyAccJerkStdDev-Y
-TimeBodyAccJerkStdDev-Z          
-TimeBodyGyroMean-X
-TimeBodyGyroMean-Y
-TimeBodyGyroMean-Z
-TimeBodyGyroStdDev-X
-TimeBodyGyroStdDev-Y
-TimeBodyGyroStdDev-Z
-TimeBodyGyroJerkMean-X
-TimeBodyGyroJerkMean-Y
-TimeBodyGyroJerkMean-Z
-TimeBodyGyroJerkStdDev-X
-TimeBodyGyroJerkStdDev-Y
-TimeBodyGyroJerkStdDev-Z    
-TimeBodyAccMagMean
-TimeBodyAccMagStdDev
-TimeGravityAccMagMean
-TimeGravityAccMagStdDev
-TimeBodyAccJerkMagMean
-TimeBodyAccJerkMagStdDev
-TimeBodyGyroMagMean
-TimeBodyGyroMagStdDev
-TimeBodyGyroJerkMagMean
+* TimeBodyAccJerkMean-X             
+* TimeBodyAccJerkMean-Y             
+* TimeBodyAccJerkMean-Z            
+* TimeBodyAccJerkStdDev-X
+* TimeBodyAccJerkStdDev-Y
+* TimeBodyAccJerkStdDev-Z          
+* TimeBodyGyroMean-X
+* TimeBodyGyroMean-Y
+* TimeBodyGyroMean-Z
+* TimeBodyGyroStdDev-X
+* TimeBodyGyroStdDev-Y
+* TimeBodyGyroStdDev-Z
+* TimeBodyGyroJerkMean-X
+* TimeBodyGyroJerkMean-Y
+* TimeBodyGyroJerkMean-Z
+* TimeBodyGyroJerkStdDev-X
+* TimeBodyGyroJerkStdDev-Y
+* TimeBodyGyroJerkStdDev-Z    
+* TimeBodyAccMagMean
+* TimeBodyAccMagStdDev
+* TimeGravityAccMagMean
+* TimeGravityAccMagStdDev
+* TimeBodyAccJerkMagMean
+* TimeBodyAccJerkMagStdDev
+* TimeBodyGyroMagMean
+* TimeBodyGyroMagStdDev
+* TimeBodyGyroJerkMagMean
 
 
 
@@ -68,45 +68,45 @@ TimeBodyGyroJerkMagMean
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing FrequencyBodyAcc-XYZ, FrequencyBodyAccJerk-XYZ, FrequencyBodyGyro-XYZ, FrequencyBodyAccJerkMag, FrequencyBodyGyroMag, FrequencyBodyGyroJerkMag. The units are hertz
 
-TimeBodyGyroJerkMagStdDev
-FrequencyBodyAccMean-X
-FrequencyBodyAccMean-Y
-FrequencyBodyAccMean-Z            
-FrequencyBodyAccStdDev-X
-FrequencyBodyAccStdDev-Y
-FrequencyBodyAccStdDev-Z
-FrequencyBodyAcc-meanFreq-X
-FrequencyBodyAcc-meanFreq-Y      
-FrequencyBodyAcc-meanFreq-Z       
-FrequencyBodyAccJerkMean-X        
-FrequencyBodyAccJerkMean-Y       
-FrequencyBodyAccJerkMean-Z
-FrequencyBodyAccJerkStdDev-X
-FrequencyBodyAccJerkStdDev-Y     
-FrequencyBodyAccJerkStdDev-Z
-FrequencyBodyAccJerk-meanFreq-X
-FrequencyBodyAccJerk-meanFreq-Y
-FrequencyBodyAccJerk-meanFreq-Z
-FrequencyBodyGyroMean-X           
-FrequencyBodyGyroMean-Y          
-FrequencyBodyGyroMean-Z           
-FrequencyBodyGyroStdDev-X         
-FrequencyBodyGyroStdDev-Y
-FrequencyBodyGyroStdDev-Z
-FrequencyBodyGyro-meanFreq-X
-FrequencyBodyGyro-meanFreq-Y     
-FrequencyBodyGyro-meanFreq-Z      
-FrequencyBodyAccMagMean           
-FrequencyBodyAccMagStdDev        
-FrequencyBodyAccMag-meanFreq      
-FrequencyBodyAccJerkMagMean       
-FrequencyBodyAccJerkMagStdDev    
-FrequencyBodyAccJerkMag-meanFreq
-FrequencyBodyGyroMagMean
-FrequencyBodyGyroMagStdDev       
-FrequencyBodyGyroMag-meanFreq
-FrequencyBodyGyroJerkMagMean
-FrequencyBodyGyroJerkMagStdDev   
-FrequencyBodyGyroJerkMag-meanFreq
+* TimeBodyGyroJerkMagStdDev
+* FrequencyBodyAccMean-X
+* FrequencyBodyAccMean-Y
+* FrequencyBodyAccMean-Z            
+* FrequencyBodyAccStdDev-X
+* FrequencyBodyAccStdDev-Y
+* FrequencyBodyAccStdDev-Z
+* FrequencyBodyAcc-meanFreq-X
+* FrequencyBodyAcc-meanFreq-Y      
+* FrequencyBodyAcc-meanFreq-Z       
+* FrequencyBodyAccJerkMean-X        
+* FrequencyBodyAccJerkMean-Y       
+* FrequencyBodyAccJerkMean-Z
+* FrequencyBodyAccJerkStdDev-X
+* FrequencyBodyAccJerkStdDev-Y     
+* FrequencyBodyAccJerkStdDev-Z
+* FrequencyBodyAccJerk-meanFreq-X
+* FrequencyBodyAccJerk-meanFreq-Y
+* FrequencyBodyAccJerk-meanFreq-Z
+* FrequencyBodyGyroMean-X           
+* FrequencyBodyGyroMean-Y          
+* FrequencyBodyGyroMean-Z           
+* FrequencyBodyGyroStdDev-X         
+* FrequencyBodyGyroStdDev-Y
+* FrequencyBodyGyroStdDev-Z
+* FrequencyBodyGyro-meanFreq-X
+* FrequencyBodyGyro-meanFreq-Y     
+* FrequencyBodyGyro-meanFreq-Z      
+* FrequencyBodyAccMagMean           
+* FrequencyBodyAccMagStdDev        
+* FrequencyBodyAccMag-meanFreq      
+* FrequencyBodyAccJerkMagMean       
+* FrequencyBodyAccJerkMagStdDev    
+* FrequencyBodyAccJerkMag-meanFreq
+* FrequencyBodyGyroMagMean
+* FrequencyBodyGyroMagStdDev       
+* FrequencyBodyGyroMag-meanFreq
+* FrequencyBodyGyroJerkMagMean
+* FrequencyBodyGyroJerkMagStdDev   
+* FrequencyBodyGyroJerkMag-meanFreq
 
 
