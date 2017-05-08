@@ -66,8 +66,6 @@ final <- merge(b, activityData, by='activityId', all.x=TRUE)
 # 4. Appropriately label the data set with descriptive activity names. 
 #------------------------------------------------------------------------------------------------------#
 
-
-
 colnames(final) <- gsub("^t", "Time", colnames(final))
 colnames(final) <- gsub("^f", "Frequency", colnames(final))
 colnames(final) <- gsub("-mean\\(\\)", "Mean", colnames(final))
@@ -81,6 +79,5 @@ colnames(final) <- gsub("\\()","",colnames(final))
 
 final_melt <- melt(final, id = c("subjectId", "activityId", "activityType"))
 final_stat <- dcast(final_melt, subjectId + activityId + activityType~ variable, mean)
-
 
 write.table(final_stat, "./project/tidy_data.txt" ,row.names=TRUE,sep='\t')
